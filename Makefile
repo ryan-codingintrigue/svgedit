@@ -26,10 +26,7 @@ JS_FILES=\
 	draw.js \
 	layer.js \
 	path.js \
-	svgcanvas.js \
-	svg-editor.js \
-	locale/locale.js \
-	contextmenu.js
+	svgcanvas.js
 
 JS_INPUT_FILES=$(addprefix editor/, $(JS_FILES))
 JS_BUILD_FILES=$(addprefix build/$(PACKAGE)/, $(JS_FILES))
